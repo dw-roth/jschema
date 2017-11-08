@@ -1,5 +1,8 @@
-var dataSchema = (function () {
+/*global tv4 */
 
+var dataSchema = (function () {
+    'use strict'
+    
     tv4.addFormat('email', function (data, schema) {
         if (typeof data === 'string' && /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/.test(data)) {
             return null;
