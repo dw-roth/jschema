@@ -4,5 +4,3 @@
 // 3. When the user fills out the form and clicks the submit button (yes, candidate needs to add a submit button), write a handler that takes the
 //    input and calls dataObject.validate. If there is a validate error, display it to the user, otherwide indicate success.
 
-//https://jsonschema-dw-roth1.c9users.io/index.html
-console.log("Hey there what up?");
